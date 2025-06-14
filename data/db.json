@@ -1,0 +1,40 @@
+{
+  "fornecedores": [
+    {
+      "id": "38f1",
+      "nome": "Empresa LTDA",
+      "email": "kezyamedeiros@gmail.com",
+      "cnpj": "",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "58.075-260",
+        "logradouro": "Rua Adauto Toledo",
+        "numero": "46",
+        "complemento": "Apartamento 102",
+        "bairro": "Ernesto Geisel",
+        "cidade": "João Pessoa",
+        "estado": "Paraíba",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c354",
+      "nome": "Empresa LTDA",
+      "email": "kezyamedeiros@gmail.com",
+      "cnpj": "",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "58.075-260",
+        "logradouro": "Rua Adauto Toledo",
+        "numero": "46",
+        "complemento": "Apartamento 102",
+        "bairro": "Ernesto Geisel",
+        "cidade": "João Pessoa",
+        "estado": "Paraíba",
+        "pais": "Brasil"
+      }
+    }
+  ],
+  "produtos": [],
+  "clientes": []
+}
