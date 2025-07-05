@@ -5,6 +5,8 @@ import axios from 'axios'
 
 const FornecedorForm = () => {
 
+    const apiUrl = import.meta.env.VITE_API_URL
+
     const [fornecedor, setFornecedor] = useState({
         nome: "",
         email: "",
@@ -56,8 +58,7 @@ const FornecedorForm = () => {
             cnpj: fornecedor.cnpj.replace(/[^\d]/g, "")
         }
 
-
-        axios.post("http://localhost:3000/fornecedores", fornecedorData)
+        axios.post(`${apiUrl}/fornecedores`, fornecedorData)
         .then(response => console.log("Fornecedor cadastrado com sucesso"))
         .catch(error => console.error("Erro ao cadastrar fornecedor: ", error))
     }
