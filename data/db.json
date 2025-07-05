@@ -33,6 +33,91 @@
         "estado": "Paraíba",
         "pais": "Brasil"
       }
+    },
+    {
+      "id": "b648",
+      "nome": "Empresa KLM",
+      "email": "klm@gmail.com",
+      "cnpj": "../-",
+      "tipoFornecedor": "PREMIUM",
+      "endereco": {
+        "cep": "58075260",
+        "logradouro": "Rua Adauto Toledo",
+        "numero": "46",
+        "complemento": "Centro",
+        "bairro": "Ernesto Geisel",
+        "cidade": "João Pessoa",
+        "estado": "Paraíba",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c76f",
+      "nome": "Empresa KLM2",
+      "email": "klm2@gmail.com",
+      "cnpj": "",
+      "tipoFornecedor": "PREMIUM",
+      "endereco": {
+        "cep": "58075260",
+        "logradouro": "Rua Adauto Toledo",
+        "numero": "46",
+        "complemento": "Centro",
+        "bairro": "Ernesto Geisel",
+        "cidade": "João Pessoa",
+        "estado": "Paraíba",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "457a",
+      "nome": "Empresa Teste",
+      "email": "t@teste",
+      "cnpj": "",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "58075260",
+        "logradouro": "Rua Adauto Toledo",
+        "numero": "44",
+        "complemento": "",
+        "bairro": "Ernesto Geisel",
+        "cidade": "João Pessoa",
+        "estado": "Paraíba",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "34cb",
+      "nome": "Empresa Teste2",
+      "email": "t@teste",
+      "cnpj": "60714247000100",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "58075260",
+        "logradouro": "Rua Adauto Toledo",
+        "numero": "44",
+        "complemento": "",
+        "bairro": "Ernesto Geisel",
+        "cidade": "João Pessoa",
+        "estado": "Paraíba",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "9447",
+      "nome": "Empresa Teste2",
+      "email": "t@teste",
+      "cnpj": "60714247000100",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "58075260",
+        "logradouro": "Rua Adauto Toledo",
+        "numero": "44",
+        "complemento": "aaa",
+        "bairro": "Ernesto Geisel",
+        "cidade": "João Pessoa",
+        "estado": "Paraíba",
+        "pais": "Brasil"
+      }
     }
   ],
   "produtos": [],

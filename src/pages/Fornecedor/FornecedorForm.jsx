@@ -53,8 +53,9 @@ const FornecedorForm = () => {
         
         const fornecedorData = {
             ...fornecedor,
-            cnpj: fornecedor.cnpj.replace(/[ˆ\d]/g, "")
+            cnpj: fornecedor.cnpj.replace(/[^\d]/g, "")
         }
+
 
         axios.post("http://localhost:3000/fornecedores", fornecedorData)
         .then(response => console.log("Fornecedor cadastrado com sucesso"))
