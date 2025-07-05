@@ -250,6 +250,7 @@ const FornecedorForm = () => {
                     <Modal.Title>
                         <FaCheckCircle className="text-success me-2" /> Sucesso
                     </Modal.Title>
+                </Modal.Header>
 
                     <Modal.Body>
                         Fornecedor cadastrado com sucesso!
@@ -260,8 +261,6 @@ const FornecedorForm = () => {
                             Fechar
                         </Button>
                     </Modal.Footer>
-                </Modal.Header>
-
             </Modal>
 
         </Container>

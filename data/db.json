@@ -1,83 +1,491 @@
 {
   "fornecedores": [
     {
-      "id": "38f1",
-      "nome": "Empresa LTDA",
-      "email": "kezyamedeiros@gmail.com",
-      "cnpj": "",
+      "id": "c003",
+      "nome": "Gamma Indústrias",
+      "email": "gamma@industrias.com",
+      "cnpj": "11223344000155",
       "tipoFornecedor": "COMUM",
       "endereco": {
-        "cep": "58.075-260",
-        "logradouro": "Rua Adauto Toledo",
-        "numero": "46",
-        "complemento": "Apartamento 102",
-        "bairro": "Ernesto Geisel",
+        "cep": "30130-110",
+        "logradouro": "Praça da Liberdade",
+        "numero": "45",
+        "complemento": "",
+        "bairro": "Savassi",
+        "cidade": "Belo Horizonte",
+        "estado": "Minas Gerais",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c004",
+      "nome": "Delta Comércio",
+      "email": "vendas@deltacomercio.com",
+      "cnpj": "44556677000199",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "80010-000",
+        "logradouro": "Rua XV de Novembro",
+        "numero": "1500",
+        "complemento": "Loja 3",
+        "bairro": "Centro",
+        "cidade": "Curitiba",
+        "estado": "Paraná",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c005",
+      "nome": "Epsilon Serviços ME",
+      "email": "contato@epsilon.com",
+      "cnpj": "55667788000100",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "58075-260",
+        "logradouro": "Rua das Acácias",
+        "numero": "82",
+        "complemento": "Casa",
+        "bairro": "Bancários",
         "cidade": "João Pessoa",
         "estado": "Paraíba",
         "pais": "Brasil"
       }
     },
     {
-      "id": "c354",
-      "nome": "Empresa LTDA",
-      "email": "kezyamedeiros@gmail.com",
-      "cnpj": "",
+      "id": "c006",
+      "nome": "Zeta Tech Solutions",
+      "email": "zeta@techsolutions.com",
+      "cnpj": "66778899000122",
       "tipoFornecedor": "COMUM",
       "endereco": {
-        "cep": "58.075-260",
-        "logradouro": "Rua Adauto Toledo",
-        "numero": "46",
-        "complemento": "Apartamento 102",
-        "bairro": "Ernesto Geisel",
+        "cep": "70040-010",
+        "logradouro": "Setor Bancário Sul",
+        "numero": "12",
+        "complemento": "Cobertura",
+        "bairro": "Asa Sul",
+        "cidade": "Brasília",
+        "estado": "Distrito Federal",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c007",
+      "nome": "Omega Transportes",
+      "email": "contato@omegatrans.com",
+      "cnpj": "77889900000177",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "60170-060",
+        "logradouro": "Avenida Beira Mar",
+        "numero": "800",
+        "complemento": "Apto 902",
+        "bairro": "Meireles",
+        "cidade": "Fortaleza",
+        "estado": "Ceará",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c008",
+      "nome": "Theta Logística",
+      "email": "theta@logistica.com",
+      "cnpj": "88990011000188",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "69005-070",
+        "logradouro": "Avenida Eduardo Ribeiro",
+        "numero": "300",
+        "complemento": "",
+        "bairro": "Centro",
+        "cidade": "Manaus",
+        "estado": "Amazonas",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c009",
+      "nome": "Iota Alimentação",
+      "email": "vendas@iotaalimentos.com",
+      "cnpj": "99887766000133",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "40170-110",
+        "logradouro": "Rua Marques de Caravelas",
+        "numero": "77",
+        "complemento": "Loja 1",
+        "bairro": "Barra",
+        "cidade": "Salvador",
+        "estado": "Bahia",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c010",
+      "nome": "Kappa Engenharia",
+      "email": "kappa@engenharia.com",
+      "cnpj": "33445566000122",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "88015-200",
+        "logradouro": "Rua Felipe Schmidt",
+        "numero": "120",
+        "complemento": "Sala 404",
+        "bairro": "Centro",
+        "cidade": "Florianópolis",
+        "estado": "Santa Catarina",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c011",
+      "nome": "Lambda Consultoria",
+      "email": "lambda@consultoria.com",
+      "cnpj": "11221122000133",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "70730-300",
+        "logradouro": "Quadra 702 Norte",
+        "numero": "55",
+        "complemento": "Bloco A",
+        "bairro": "Asa Norte",
+        "cidade": "Brasília",
+        "estado": "Distrito Federal",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c012",
+      "nome": "Sigma Construções",
+      "email": "sigma@construcoes.com",
+      "cnpj": "99881122000188",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "50721-001",
+        "logradouro": "Avenida Caxangá",
+        "numero": "1001",
+        "complemento": "Galpão",
+        "bairro": "Cordeiro",
+        "cidade": "Recife",
+        "estado": "Pernambuco",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c013",
+      "nome": "Tau Serviços Técnicos",
+      "email": "tau@servicostecnicos.com",
+      "cnpj": "44556677889900",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "64000-010",
+        "logradouro": "Rua Simplício Mendes",
+        "numero": "320",
+        "complemento": "",
+        "bairro": "Centro",
+        "cidade": "Teresina",
+        "estado": "Piauí",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c014",
+      "nome": "Upsilon Comércios",
+      "email": "contato@upsiloncomercios.com",
+      "cnpj": "55667788990011",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "66055-090",
+        "logradouro": "Travessa Padre Eutíquio",
+        "numero": "789",
+        "complemento": "Loja 2",
+        "bairro": "Campina",
+        "cidade": "Belém",
+        "estado": "Pará",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c015",
+      "nome": "Phi Telecom",
+      "email": "phi@telecom.com",
+      "cnpj": "66778899001122",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "59020-000",
+        "logradouro": "Avenida Hermes da Fonseca",
+        "numero": "456",
+        "complemento": "Sala 101",
+        "bairro": "Tirol",
+        "cidade": "Natal",
+        "estado": "Rio Grande do Norte",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c016",
+      "nome": "Chi Indústria e Comércio",
+      "email": "chi@industria.com",
+      "cnpj": "77889900112233",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "74015-040",
+        "logradouro": "Rua 4",
+        "numero": "123",
+        "complemento": "",
+        "bairro": "Setor Central",
+        "cidade": "Goiânia",
+        "estado": "Goiás",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c017",
+      "nome": "Psi Digital",
+      "email": "psi@digital.com",
+      "cnpj": "88990011223344",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "69058-845",
+        "logradouro": "Avenida das Torres",
+        "numero": "1500",
+        "complemento": "Torre B",
+        "bairro": "Flores",
+        "cidade": "Manaus",
+        "estado": "Amazonas",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c018",
+      "nome": "Omega Health",
+      "email": "omega@health.com",
+      "cnpj": "99001122334455",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "30295-050",
+        "logradouro": "Rua José Vicente",
+        "numero": "65",
+        "complemento": "Clínica",
+        "bairro": "Horto",
+        "cidade": "Belo Horizonte",
+        "estado": "Minas Gerais",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c019",
+      "nome": "Beta Foods",
+      "email": "beta@foods.com",
+      "cnpj": "10111213141516",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "72210-040",
+        "logradouro": "QNM 10",
+        "numero": "25",
+        "complemento": "Galpão",
+        "bairro": "Ceilândia Norte",
+        "cidade": "Brasília",
+        "estado": "Distrito Federal",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c020",
+      "nome": "Zeta Automóveis",
+      "email": "zeta@automoveis.com",
+      "cnpj": "22334455667788",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "79002-970",
+        "logradouro": "Avenida Afonso Pena",
+        "numero": "999",
+        "complemento": "Showroom",
+        "bairro": "Centro",
+        "cidade": "Campo Grande",
+        "estado": "Mato Grosso do Sul",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c021",
+      "nome": "Alpha Solar Energia",
+      "email": "contato@alphasolar.com",
+      "cnpj": "11223344556677",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "69060-000",
+        "logradouro": "Rua do Sol",
+        "numero": "150",
+        "complemento": "Galpão",
+        "bairro": "Cidade Nova",
+        "cidade": "Manaus",
+        "estado": "Amazonas",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c022",
+      "nome": "Beta Energia LTDA",
+      "email": "beta@energia.com",
+      "cnpj": "22334455667788",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "40020-000",
+        "logradouro": "Avenida Sete de Setembro",
+        "numero": "500",
+        "complemento": "Sala 20",
+        "bairro": "Barra",
+        "cidade": "Salvador",
+        "estado": "Bahia",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c023",
+      "nome": "Gama Logística",
+      "email": "gama@logistica.com",
+      "cnpj": "33445566778899",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "58040-000",
+        "logradouro": "Rua da Paz",
+        "numero": "888",
+        "complemento": "",
+        "bairro": "Torre",
         "cidade": "João Pessoa",
         "estado": "Paraíba",
         "pais": "Brasil"
       }
     },
     {
-      "id": "b648",
-      "nome": "Empresa KLM",
-      "email": "klm@gmail.com",
-      "cnpj": "../-",
+      "id": "c024",
+      "nome": "Delta Saúde ME",
+      "email": "delta@saude.com",
+      "cnpj": "44556677889900",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "60330-000",
+        "logradouro": "Rua Professor Morais Correia",
+        "numero": "12",
+        "complemento": "Clínica 2",
+        "bairro": "Benfica",
+        "cidade": "Fortaleza",
+        "estado": "Ceará",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c025",
+      "nome": "Epsilon Alimentos",
+      "email": "vendas@epsilonalimentos.com",
+      "cnpj": "55667788990011",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "69900-000",
+        "logradouro": "Rua Epaminondas Jácome",
+        "numero": "77",
+        "complemento": "",
+        "bairro": "Centro",
+        "cidade": "Rio Branco",
+        "estado": "Acre",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c026",
+      "nome": "Zeta Cosméticos",
+      "email": "contato@zetacosmeticos.com",
+      "cnpj": "66778899001122",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "64000-000",
+        "logradouro": "Avenida Frei Serafim",
+        "numero": "1000",
+        "complemento": "Sala 5",
+        "bairro": "Centro",
+        "cidade": "Teresina",
+        "estado": "Piauí",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c027",
+      "nome": "Eta Móveis",
+      "email": "comercial@etamoveis.com",
+      "cnpj": "77889900112233",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "66030-000",
+        "logradouro": "Rua Municipalidade",
+        "numero": "300",
+        "complemento": "Depósito",
+        "bairro": "Umarizal",
+        "cidade": "Belém",
+        "estado": "Pará",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c028",
+      "nome": "Theta Tecnologia",
+      "email": "suporte@thetatecnologia.com",
+      "cnpj": "88990011223344",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "59000-000",
+        "logradouro": "Rua João Pessoa",
+        "numero": "222",
+        "complemento": "",
+        "bairro": "Cidade Alta",
+        "cidade": "Natal",
+        "estado": "Rio Grande do Norte",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c029",
+      "nome": "Iota Comércio",
+      "email": "iota@comercio.com",
+      "cnpj": "99001122334455",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "72000-000",
+        "logradouro": "QN 1 Conjunto A",
+        "numero": "10",
+        "complemento": "Loja",
+        "bairro": "Taguatinga Norte",
+        "cidade": "Brasília",
+        "estado": "Distrito Federal",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "c030",
+      "nome": "Kappa Informática",
+      "email": "kappa@informatica.com",
+      "cnpj": "10111213141516",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "79000-000",
+        "logradouro": "Rua 14 de Julho",
+        "numero": "45",
+        "complemento": "Sala 2",
+        "bairro": "Centro",
+        "cidade": "Campo Grande",
+        "estado": "Mato Grosso do Sul",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "e199",
+      "nome": "Alpha Tech LTDA 2",
+      "email": "alpahltda2@corporativo.com",
+      "cnpj": "32231323432424232",
       "tipoFornecedor": "PREMIUM",
       "endereco": {
         "cep": "58075260",
         "logradouro": "Rua Adauto Toledo",
-        "numero": "46",
-        "complemento": "Centro",
-        "bairro": "Ernesto Geisel",
-        "cidade": "João Pessoa",
-        "estado": "Paraíba",
-        "pais": "Brasil"
-      }
-    },
-    {
-      "id": "c76f",
-      "nome": "Empresa KLM2",
-      "email": "klm2@gmail.com",
-      "cnpj": "",
-      "tipoFornecedor": "PREMIUM",
-      "endereco": {
-        "cep": "58075260",
-        "logradouro": "Rua Adauto Toledo",
-        "numero": "46",
-        "complemento": "Centro",
-        "bairro": "Ernesto Geisel",
-        "cidade": "João Pessoa",
-        "estado": "Paraíba",
-        "pais": "Brasil"
-      }
-    },
-    {
-      "id": "457a",
-      "nome": "Empresa Teste",
-      "email": "t@teste",
-      "cnpj": "",
-      "tipoFornecedor": "COMUM",
-      "endereco": {
-        "cep": "58075260",
-        "logradouro": "Rua Adauto Toledo",
-        "numero": "44",
+        "numero": "101",
         "complemento": "",
         "bairro": "Ernesto Geisel",
         "cidade": "João Pessoa",
@@ -86,33 +494,16 @@
       }
     },
     {
-      "id": "34cb",
-      "nome": "Empresa Teste2",
-      "email": "t@teste",
-      "cnpj": "60714247000100",
-      "tipoFornecedor": "COMUM",
+      "id": "4557",
+      "nome": "Sigma Exportações ZA",
+      "email": "sigma@exportacoes.com",
+      "cnpj": "77889966554433",
+      "tipoFornecedor": "PREMIUM",
       "endereco": {
         "cep": "58075260",
         "logradouro": "Rua Adauto Toledo",
-        "numero": "44",
+        "numero": "111",
         "complemento": "",
-        "bairro": "Ernesto Geisel",
-        "cidade": "João Pessoa",
-        "estado": "Paraíba",
-        "pais": "Brasil"
-      }
-    },
-    {
-      "id": "9447",
-      "nome": "Empresa Teste2",
-      "email": "t@teste",
-      "cnpj": "60714247000100",
-      "tipoFornecedor": "COMUM",
-      "endereco": {
-        "cep": "58075260",
-        "logradouro": "Rua Adauto Toledo",
-        "numero": "44",
-        "complemento": "aaa",
         "bairro": "Ernesto Geisel",
         "cidade": "João Pessoa",
         "estado": "Paraíba",
