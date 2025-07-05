@@ -1,11 +1,16 @@
 import React, { useEffect, useState } from 'react'
-import { Button, Col, Container, Form, OverlayTrigger, Row, Tooltip } from 'react-bootstrap'
-import { FaQuestionCircle } from 'react-icons/fa'
+import { Button, Col, Container, Form, OverlayTrigger, Row, Tooltip, Modal } from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom'
+import { FaCheckCircle, FaQuestionCircle } from 'react-icons/fa'
 import axios from 'axios'
 
 const FornecedorForm = () => {
 
+    const navigate = useNavigate()
+
     const apiUrl = import.meta.env.VITE_API_URL
+
+    const [modalAberto, setModalAberto] = useState(false)
 
     const [fornecedor, setFornecedor] = useState({
         nome: "",
@@ -59,7 +64,10 @@ const FornecedorForm = () => {
         }
 
         axios.post(`${apiUrl}/fornecedores`, fornecedorData)
-        .then(response => console.log("Fornecedor cadastrado com sucesso"))
+        .then(response => {
+            console.log("Fornecedor cadastrado com sucesso: ", response)
+            setModalAberto(true)
+        })
         .catch(error => console.error("Erro ao cadastrar fornecedor: ", error))
     }
 
@@ -233,6 +241,29 @@ const FornecedorForm = () => {
                     Salvar
                 </Button>
             </Form>
+
+            {/* Modal de sucesso */}
+
+            <Modal show={modalAberto} onHide={() => { setModalAberto(false); navigate('/listar-fornecedores') }}>
+
+                <Modal.Header closeButton>
+                    <Modal.Title>
+                        <FaCheckCircle className="text-success me-2" /> Sucesso
+                    </Modal.Title>
+
+                    <Modal.Body>
+                        Fornecedor cadastrado com sucesso!
+                    </Modal.Body>
+
+                    <Modal.Footer>
+                        <Button variant="success" onClick={() => navigate( '/listar-fornecedores' )}>
+                            Fechar
+                        </Button>
+                    </Modal.Footer>
+                </Modal.Header>
+
+            </Modal>
+
         </Container>
     )
 }
