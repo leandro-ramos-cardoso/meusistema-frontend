@@ -80,19 +80,12 @@ const FornecedorForm = () => {
 
         request.then(() => setModalAberto(true))
         .catch(error => console.error("Erro ao cadastrar/editar fornecedor: ", error))
-
-        /*axios.post(`${apiUrl}/fornecedores`, fornecedorData)
-        .then(response => {
-            console.log("Fornecedor cadastrado com sucesso: ", response)
-            setModalAberto(true)
-        })
-        .catch(error => console.error("Erro ao cadastrar fornecedor: ", error))*/
     }
 
     return (
         <Container className="mt-4">
             <h2 className="mb-4 d-flex align-items-center">
-                { /* Por enquanto apenas o texto de adicionar, depois colocamos editar tambem. */}
+                
                 { id ? 'Editar Fornecedor' : 'Adicionar Fornecedor'}
                 <OverlayTrigger
                     placement="right"
@@ -116,7 +109,7 @@ const FornecedorForm = () => {
                     />
                 </Form.Group>
 
-                {/* Campo nome */}
+                {/* Campo email */}
                 <Form.Group className="mb-3">
                     <Form.Label>Email:</Form.Label>
                     <Form.Control

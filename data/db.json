@@ -512,5 +512,71 @@
     }
   ],
   "produtos": [],
-  "clientes": []
+  "clientes": [
+    {
+      "id": "c6c9",
+      "nome": "LEANDRO RAMOS CARDOSO",
+      "email": "LRCARDOSO.JP@GMAIL.COM",
+      "telefone": "83999773811",
+      "endereco": {
+        "cep": "58075260",
+        "logradouro": "Rua Adauto Toledo",
+        "numero": "2",
+        "complemento": "APARTAMENTO 101",
+        "bairro": "Ernesto Geisel",
+        "cidade": "João Pessoa",
+        "estado": "Paraíba",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "6396",
+      "nome": "LEANDRO RAMOS CARDOSO",
+      "email": "LRCARDOSO.JP@GMAIL.COM",
+      "telefone": "83999773811",
+      "endereco": {
+        "cep": "58075260",
+        "logradouro": "Rua Adauto Toledo",
+        "numero": "2",
+        "complemento": "APARTAMENTO 101",
+        "bairro": "Ernesto Geisel",
+        "cidade": "João Pessoa",
+        "estado": "Paraíba",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "a7eb",
+      "nome": "Teste",
+      "email": "LRCARDOSO.JP@GMAIL.COM",
+      "telefone": "83999773811",
+      "endereco": {
+        "cep": "58075260",
+        "logradouro": "Rua Adauto Toledo",
+        "numero": "2",
+        "complemento": "APARTAMENTO 101",
+        "bairro": "Ernesto Geisel",
+        "cidade": "João Pessoa",
+        "estado": "Paraíba",
+        "pais": "Brasil"
+      }
+    },
+    {
+      "id": "730a",
+      "nome": "Leo11",
+      "email": "erere@wsrwsfds",
+      "cpf": "06134567899",
+      "telefone": "243242",
+      "endereco": {
+        "cep": "58075260",
+        "logradouro": "Rua Adauto Toledo",
+        "numero": "22",
+        "complemento": "",
+        "bairro": "Ernesto Geisel",
+        "cidade": "João Pessoa",
+        "estado": "Paraíba",
+        "pais": "Brasil"
+      }
+    }
+  ]
 }
