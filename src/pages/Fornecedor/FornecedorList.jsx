@@ -37,8 +37,7 @@ const FornecedorList = () => {
 
     return (
         <Container className="mt-5">
-            <h2 className="mb-4 d-flex align-items-center">
-                Lista de Fornecedores
+            <h2 className="mb-4 d-flex align-items-center">Lista de Fornecedores
                 <OverlayTrigger
                     placement="right"
                     overlay={<Tooltip>Visualize, edite ou exclua fornecedores</Tooltip>}
@@ -74,6 +73,8 @@ const FornecedorList = () => {
                                 <td>{fornecedor.tipoFornecedor}</td>
                                 <td>
                                     <Button
+                                        as={Link}
+                                        to={`/editar-fornecedor/${fornecedor.id}`}
                                         variant="warning"
                                         size="sm"
                                         className="me-2"

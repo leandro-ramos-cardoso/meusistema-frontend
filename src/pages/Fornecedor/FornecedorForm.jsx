@@ -1,13 +1,24 @@
 import React, { useEffect, useState } from 'react'
 import { Button, Col, Container, Form, OverlayTrigger, Row, Tooltip, Modal } from 'react-bootstrap'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import { FaCheckCircle, FaQuestionCircle } from 'react-icons/fa'
 import axios from 'axios'
 
 const FornecedorForm = () => {
 
-    const navigate = useNavigate()
+    // Estou verificando se existe o id na url
+    const { id } = useParams()
 
+    // useEffect para carregar as informacoes para editar
+    useEffect(() => {
+        if (id) {
+            axios.get(`${apiUrl}/fornecedores/${id}`)
+            .then(response => setFornecedor(response.data))
+            .catch(error => console.error("Houve um erro ao carregar o fornecedor: ", error))
+        }
+    }, [id])
+
+    const navigate = useNavigate()
     const apiUrl = import.meta.env.VITE_API_URL
 
     const [modalAberto, setModalAberto] = useState(false)
@@ -63,19 +74,26 @@ const FornecedorForm = () => {
             cnpj: fornecedor.cnpj.replace(/[^\d]/g, "")
         }
 
-        axios.post(`${apiUrl}/fornecedores`, fornecedorData)
+        const request = id
+        ? axios.put(`${apiUrl}/fornecedores/${id}`, fornecedorData)
+        : axios.post(`${apiUrl}/fornecedores`, fornecedorData)
+
+        request.then(() => setModalAberto(true))
+        .catch(error => console.error("Erro ao cadastrar/editar fornecedor: ", error))
+
+        /*axios.post(`${apiUrl}/fornecedores`, fornecedorData)
         .then(response => {
             console.log("Fornecedor cadastrado com sucesso: ", response)
             setModalAberto(true)
         })
-        .catch(error => console.error("Erro ao cadastrar fornecedor: ", error))
+        .catch(error => console.error("Erro ao cadastrar fornecedor: ", error))*/
     }
 
     return (
         <Container className="mt-4">
             <h2 className="mb-4 d-flex align-items-center">
                 { /* Por enquanto apenas o texto de adicionar, depois colocamos editar tambem. */}
-                Adicionar Fornecedor
+                { id ? 'Editar Fornecedor' : 'Adicionar Fornecedor'}
                 <OverlayTrigger
                     placement="right"
                     overlay={<Tooltip>Preencha os dados do fornecedor</Tooltip>}

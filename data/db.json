@@ -4,14 +4,14 @@
       "id": "c003",
       "nome": "Gamma Indústrias",
       "email": "gamma@industrias.com",
-      "cnpj": "11223344000155",
+      "cnpj": "112233440001550",
       "tipoFornecedor": "COMUM",
       "endereco": {
         "cep": "30130-110",
-        "logradouro": "Praça da Liberdade",
+        "logradouro": "Alameda Ezequiel Dias",
         "numero": "45",
         "complemento": "",
-        "bairro": "Savassi",
+        "bairro": "Centro",
         "cidade": "Belo Horizonte",
         "estado": "Minas Gerais",
         "pais": "Brasil"
